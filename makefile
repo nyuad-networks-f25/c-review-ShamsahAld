@@ -1,4 +1,4 @@
-main: main.c status.h
+main: main.c status.h student.h
 	gcc -Wall  main.c -o main
 
 clean:
