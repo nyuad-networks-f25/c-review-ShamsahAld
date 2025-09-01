@@ -1,1 +1,1 @@
-const bool ENROLLED = false;
+static const bool ENROLLED = false;
