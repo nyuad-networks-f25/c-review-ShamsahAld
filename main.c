@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <stdbool.h>
+#include "status.h"
 
 int main(){
-	printf("Computer Networks");
+	printf("%d\n", ENROLLED);
 	return 0;
 }
 
