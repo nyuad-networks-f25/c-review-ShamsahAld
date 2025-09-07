@@ -1,5 +1,5 @@
-main: main.c
-	gcc main.c
+main: main.c status.h student.h
+	gcc -Wall -Wextra -Werror main.c -o main
 
 clean:
-	rm main
+	rm -f main
